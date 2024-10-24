@@ -1,0 +1,12 @@
+{% load vite %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Other elements-->
+		<!--Vite dev client for hmr (will not be displayed on production)-->
+		{% vite %} {% vite 'testapp/js/main.js' %}
+	</head>
+	<body>
+		<h3>okay</h3>
+	</body>
+</html>
